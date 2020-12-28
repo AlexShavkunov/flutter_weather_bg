@@ -54,7 +54,7 @@ class WeatherUtil {
 
   // 根据天气类型获取背景的颜色值
   static List<Color> getColor(WeatherType weatherType) {
-    return [Colors.transparent, Colors.transparent];
+    return [Color(0xFFCE587D), Color(0xFFFF9485)];
   }
 
   // 根据天气类型获取天气的描述信息
