@@ -77,7 +77,7 @@ class WeatherUtil {
       case WeatherType.foggy:
         return [Color(0xFFA6B3C2), Color(0xFF737F88)];
       case WeatherType.lightSnow:
-        return [Color(0xFF0D1441), Color(0xFF283584), Color(0xFF376AB2)];
+        return [Color(0xFF283584), Color(0xFF376AB2)];
       case WeatherType.middleSnow:
         return [Color(0xFF8595AD), Color(0xFF95A4BF)];
       case WeatherType.heavySnow:
